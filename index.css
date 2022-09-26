@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+} 
+
+/* HEADER SECTION-------- */
+
+#header-con{
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+}
+
+#header{
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+#header #Logo{
+    width: 150px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+#header #Logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#nav-bar {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar #search-box{
+    margin-left: 18%;
+    width: 660px;
+    background-color: rgb(51, 50, 50);
+    border-radius: 2px;
+    border: 1px solid rgb(48, 47, 47);
+}
+
+
+#nav-bar #search-box .search{
+    width: 100%;
+    height: 42px;
+}
+
+#nav-bar #search-box .search input{
+    width: 90%;
+    height: 100%;
+    background-color:#000;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    color: #fff;
+    border: none;
+}
+
+#nav-bar #search-box .search .search-icon{
+    margin-left: 15px;
+}
+
+
+
+#nav-bar #search-box .search input:focus{
+    outline: 1px solid rgb(63, 63, 223);
+}
+
+#nav-bar #link-icon{
+    margin-right: 40px;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+} 
+
+/* CONTENT SECTION-------------- */
+
+#content{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content #main-container {
+    width: 60%;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+#content #main{
+    position: fixed;
+    width: 46%;
+}
+
+#content #main .activity-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#content #main .react-section{
+    display: flex;
+}
+
+#content #main .activity-section .views{
+    display: block;
+    padding-top: 10px;
+    color: rgb(179, 170, 170);
+}
+
+#content #main .react-section .action{
+    padding: 8px 10px;
+}
+
+#content #main .react-section .icon{
+    margin-right: 10px;
+}
+
+/* --------SIDEBAR SECTION------ */
+
+#content #sidebar{
+    width: 40%;
+    padding-top: 10px;
+}
+
+#content #sidebar #btn{
+    margin-bottom: 15px;
+}
+
+#content #sidebar #btn #btn-all{
+    border-radius: 50px;
+    padding: 8px 15px;
+    color: rgb(128, 119, 119);
+}
+
+#content #sidebar #btn #btn-recently{
+    border-radius: 50px;
+    padding: 8px 15px;
+    background-color: rgb(48, 47, 47);
+    color: rgb(209, 205, 205);
+    border: 1px solid rgb(73, 69, 69);
+    margin-left: 6px;
+}
+
+#content #sidebar .preview{
+    display: flex;
+    height: 170px;
+    margin-bottom: px;
+}
+
+#content #sidebar .preview .body{
+    padding-left: 10px;
+}
+
+#content #sidebar .preview .body .title{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#content #sidebar .preview .body .views{
+    font-size: 11px;
+    margin-top: 15px;
+    color: rgb(179, 170, 170);
+}
+
