@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+#header{
+    background-color: rgb(117, 105, 105);
+}
+
+#header-container{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    background: line;
+}
